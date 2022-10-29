@@ -155,7 +155,6 @@ header > div{
 
 main {
     display: flex;
-    height: 119.6rem;
     justify-content: space-evenly;
 }
 
@@ -179,7 +178,7 @@ main {
     max-height: 34.24rem;
 }
 
-.date-and-previw{
+.date-and-preview{
     font-size: 1.6rem;
     color: #000;
     margin: 1.57rem 0 ;
@@ -207,4 +206,64 @@ article > a{
 }
 
 /**************** Section last News ****************/
+
+.last-news{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.last-news > article{
+    width: 37rem;
+    height: 45.84rem;
+}
+
+.img-last-news > img{
+    max-height: 25.9rem;
+}
+
+/**************** Footer ****************/
+
+footer{
+    border-top: 6px var(--green) solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;;
+    background-color: var(--dark-bg);
+    height: 15rem;
+    color: var(--white);
+    margin-top: 10rem;
+}
+
+.footer-contents{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-contents > h6{
+    font-size: 2rem;
+}
+
+.footer-contents > h6 > a{
+    text-decoration: none;
+    color: var(--green);
+}
+
+.footer-contents p {
+    font-size: 1.6rem;
+}
+
+.footer-contents p:nth-child(3) {
+    font-size:1rem;
+    margin: 1rem 0;
+}
+
+.contacts{
+    width: 27.4rem;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
 
